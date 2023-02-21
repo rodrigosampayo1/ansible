@@ -34,4 +34,15 @@ Both need an extra unique user. The workstation vm need a SSH key and The contro
 On Control node, an inventory file with the workstations or hosts, using private IP or Hostname
 On Control node, a playbook, what contains the tasks to deploy on workstations
 
+- on control node -> sudo yum install ansible
+- Create a new user and swtich users -> useradd Name 
+				     -> passwd Name
+				     -> sudo su - Name
+- Give that user "Name"a sudoers permissions
+- configug SSH preshared key using a new user					-> ssh-keygen
+- Copy that keygen to every our workstation hosts, 1 by 1			-> ssh-copy-id NameWorkstation1  
+- Create an inventory file, without extension, and add your hosts
+- Connect to each workstation and give sudoers access to Control vm 		-> sudo visudo
+- At the botom, add this line "ansible ALL=(ALL)       NOPASSWD: ALL", where ansible is the name of the control user
+- To do a ping, add the -i command with the destinatories like this 		-> ansible -i inventory node1 -m ping
 
