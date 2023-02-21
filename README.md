@@ -7,7 +7,8 @@
 - agentless
 
 
-#Links
+# Links
+
 Basic bash -> https://tomsitcafe.com/2023/02/09/basic-bash-for-sysadmins-01-the-shell/
 Windows as Ansible control host in WSL2 -> https://tomsitcafe.com/2023/02/10/windows-as-ansible-control-host-in-wsl2/
 Getting started with Ansible for managing -> https://tomsitcafe.com/2023/02/13/getting-started-with-ansible-for-managing-our-personal-lab-ad-hoc-commands/
