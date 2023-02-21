@@ -24,6 +24,10 @@ https://learn.acloud.guru/course/red-hat-ex447-ansible-best-practices/dashboard
 - Learn Ansible by Doing
 https://learn.acloud.guru/course/e7251e47-a643-49f3-b096-28072dfa577b/dashboard
 
+- Deep dive on Ansible Playbook
+https://learn.acloud.guru/course/b0ad4cc4-1880-4ec7-a4fe-65a2f02b5eeb/overview
+
+
 ## Configuration
 At least 2 VMs, 1 control node (the server) and workstation/s (host/s).
 Both need an extra unique user. The workstation vm need a SSH key and The control has to have it.
